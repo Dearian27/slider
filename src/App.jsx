@@ -41,7 +41,7 @@ function App() {
     <a href='https://github.com/Dearian27/slider'>
       <button className='gh'>
         Code
-        <img src="/public/icons/github.png" alt="" />
+        <img src="https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png" alt="" />
       </button>
     </a>
   </>
