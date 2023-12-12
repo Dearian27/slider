@@ -28,15 +28,23 @@ const iterations = Array.from({ length: 5 }, (_, index) => index + 1);
 function App() {
 
   return (
+  <>
     <div className="wrapper">
       <div className='container'>      
         <AnimationRow side={'left'}  id={0} shuffle plus={0 * 6} length={6} />
         <AnimationRow side={'right'} id={1} shuffle plus={1 * 6} length={6} />
         <AnimationRow side={'left'}  id={2} shuffle plus={2 * 6} length={6} />
         <AnimationRow side={'right'} id={3} shuffle plus={3 * 6} length={6} />
-        {/* <AnimationRow side={'left'}  id={4} shuffle plus={4 * 5} /> */}
       </div>
     </div>
+    
+    <a href='https://github.com/Dearian27/slider'>
+      <button className='gh'>
+        Code
+        <img src="/public/icons/github.png" alt="" />
+      </button>
+    </a>
+  </>
   )
 }
 
